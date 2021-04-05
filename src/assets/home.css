@@ -1,0 +1,96 @@
+/* Geral */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.Home{
+    font-family: 'Montserrat';
+    background-color: #F0DCC7;
+}
+h1, h2{
+    color: #670000;
+}
+
+/* Header */
+.Header{
+    background-color: #F0DCC7;
+}
+
+.nav-link{
+    color: #1E1C19;
+    cursor: pointer;
+}
+/* 2. Body */
+
+/* 2.1 - Sobre */
+.sobre{
+    padding-top: 10%;
+}
+.contato{
+    background-image: url('../assets/photos/contato-background.png');
+}
+
+.saiba-mais{
+    color: #670000;
+    text-decoration: underline;
+}
+.saiba-mais:hover{
+    color:#670000;
+}
+.btn-enviar{
+    background-color: #972E00;
+    color: #ffffff;
+    border-radius: 50px;
+    border-color: #972E00;
+    border: none;
+    width: 13%;
+    height: 50px;
+    margin-left: 72%;
+}
+.form-contato{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.img-front{
+    z-index: 3;
+    position: absolute;
+    
+}
+
+.img-top{
+    margin-top: 6%;
+}
+
+.img-left{
+    margin-left: 6%;
+}
+
+.img-bottom{
+    margin-bottom: 6%;
+}
+.img-back{
+    z-index: 2;
+    position: absolute;
+}
+
+.img-group{
+    margin-bottom: 350px;
+    margin-right: 70%;
+}
+
+.membro-equipe{
+    margin-bottom: 15%;
+}
+
+.projetos{
+    background-image: url('../assets/photos/projetos-background.png');
+    height: 1480px;
+}
+
+.projetos-conteudo{
+    margin-top: 25%;
+}
+
+.projetos-img-down{
+    margin-top: 20%;
+}
+
+/* Footer */
+
