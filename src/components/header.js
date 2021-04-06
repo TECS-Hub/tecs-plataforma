@@ -12,17 +12,17 @@ function Header(){
                 <div className="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
                     <ul className="nav navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Quem somos nós</a>
+                            <a className="nav-link"  onClick={ () => Scroll(150)}>Quem somos nós</a>
                         </li>
                     </ul>
                     <ul className="nav navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" onClick={ () => Scroll(400)}>Projetos</a>
+                            <a className="nav-link" onClick={ () => Scroll(920)}>Projetos</a>
                         </li>
                     </ul>
                     <ul className="nav navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" onClick={ () => Scroll(1140)}>Equipe</a>
+                            <a className="nav-link" onClick={ () => Scroll(2060)}>Equipe</a>
                         </li>
                     </ul>
                     <ul className="nav navbar-nav">
