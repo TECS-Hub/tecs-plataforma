@@ -1,4 +1,4 @@
-/* Geral */
+/* 1. Geral */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 .Home{
     font-family: 'Montserrat';
@@ -8,46 +8,7 @@ h1, h2{
     color: #670000;
 }
 
-/* Header */
-.Header{
-    background-color: #F0DCC7;
-}
-
-.nav-link{
-    color: #1E1C19;
-    cursor: pointer;
-}
-/* 2. Body */
-
-/* 2.1 - Sobre */
-.sobre{
-    padding-top: 10%;
-}
-.contato{
-    background-image: url('../assets/photos/contato-background.png');
-}
-
-.saiba-mais{
-    color: #670000;
-    text-decoration: underline;
-}
-.saiba-mais:hover{
-    color:#670000;
-}
-.btn-enviar{
-    background-color: #972E00;
-    color: #ffffff;
-    border-radius: 50px;
-    border-color: #972E00;
-    border: none;
-    width: 13%;
-    height: 50px;
-    margin-left: 72%;
-}
-.form-contato{
-    margin-left: 15%;
-    margin-right: 15%;
-}
+/* 1.1. Imagens customizadas */
 .img-front{
     z-index: 3;
     position: absolute;
@@ -75,8 +36,31 @@ h1, h2{
     margin-right: 70%;
 }
 
-.membro-equipe{
-    margin-bottom: 15%;
+
+/* 2. Header */
+.Header{
+    background-color: #F0DCC7;
+}
+
+.nav-link{
+    color: #1E1C19;
+    cursor: pointer;
+}
+
+/* 3. Body */
+
+/* 3.1. Sobre */
+.sobre{
+    padding-top: 10%;
+}
+
+/* 3.2. Projetos */
+.saiba-mais{
+    color: #670000;
+    text-decoration: underline;
+}
+.saiba-mais:hover{
+    color:#670000;
 }
 
 .projetos{
@@ -92,5 +76,28 @@ h1, h2{
     margin-top: 20%;
 }
 
-/* Footer */
 
+/* 3.3. Equipe */
+.membro-equipe{
+    margin-bottom: 15%;
+}
+
+/* 3.4. Contato */
+.contato{
+    background-image: url('../assets/photos/contato-background.png');
+}
+
+.btn-enviar{
+    background-color: #972E00;
+    color: #ffffff;
+    border-radius: 50px;
+    border-color: #972E00;
+    border: none;
+    width: 13%;
+    height: 50px;
+    margin-left: 72%;
+}
+.form-contato{
+    margin-left: 15%;
+    margin-right: 15%;
+}
